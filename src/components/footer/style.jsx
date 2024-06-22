@@ -11,5 +11,21 @@ export const Wrapper = styled.footer`
         background-color: black;
         justify-content: space-between;
         color: ${colors.branco};
+        .programing{
+            margin-bottom: 10px;
+            color: ${colors.laranja};
+        }
+        span{
+            color: ${colors.laranja};
+        }
+        .foot{
+            text-align: center;
+        }
+        ul{
+            li{
+                list-style: none;
+                margin: 10px;
+            }
+        }
     }
 `
